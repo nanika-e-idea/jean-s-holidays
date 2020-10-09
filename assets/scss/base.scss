@@ -1,0 +1,89 @@
+//@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900|Noto+Serif+JP:200,300,400,500,600,700,900&display=swap');
+//@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p:100,300,400,500,700,900|Noto+Serif+JP:200,300,400,500,600,700,900&display=swap');
+
+//$fontfamily: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+//$fontfamily: 'Noto Serif JP', serif;
+$fontfamily: toppan-bunkyu-mincho-pr6n, serif;
+//$fontfamily: heisei-kaku-gothic-std, sans-serif;
+//$fontfamily: yu-mincho-pr6, sans-serif;
+//$fontfamily: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, sans-serif;
+//$fontfamily: serif;
+//$headingfont: 'Noto Sans JP', sans-serif;
+//$headingfont: ryo-gothic-plusn, sans-serif;
+$headingfont: heisei-kaku-gothic-std, sans-serif;
+//$headingfont: 'M PLUS 1p', sans-serif;
+//$headingfont: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, sans-serif;
+//$headingfont: sans-serif;
+
+$fbase-pc: 18px;
+$fbase-tab: 18px; 
+$fbase-sp: 16px;
+
+$fjump-1: 2.5rem;
+$fjump-2: 2.5rem;
+$fjump-3: 2rem;
+$fjump-4: 1.5rem;
+$fjump-5: 1.2rem;
+$fjump-6: 1.2rem;
+$fjump-ex: 5rem;
+$fjump-x: 3rem;
+
+$fWeight-1: 100;
+$fWeight-2: 900;
+$fWeight-3: 600;
+$fWeight-4: 600;
+$fWeight-5: 600;
+$fWeight-6: 400;
+$fWeight-ex: 900;
+$fWeight-x: 600;
+
+$fweight-p: 200;
+
+$lspace: 1.8em;
+
+$margin-section: 1rem auto 4rem;
+$margin-sub: 2rem auto;
+
+$lpc: 1300px;  // 大画面PC
+$pc: 1025px; // PC タブレット横
+$tab: 1024px; // タブレット
+$spl: 599px;  // スマホ
+$sp: 430px;  // スマホ
+
+@mixin lpc {
+  @media (min-width: ($lpc)) {
+    @content;
+  }
+}
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin spl {
+  @media (max-width: ($spl)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+$shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+
+//$palette-acsent: #9F274C;
+$palette-acsent: rgb(140, 30, 50);
+//$palette-point: #D4C85D;
+$palette-point: rgb(180, 135, 75);
+$palette-light: #aaaaaa; 
+$palette-mid: #777777;
+//$palette-dark: #283336; 
+$palette-dark: rgb(30, 80, 80); 
+$blacky: #1a1a1c;

@@ -1,0 +1,1 @@
+<font color="gray">※他メディアの紹介記事リンク</font>

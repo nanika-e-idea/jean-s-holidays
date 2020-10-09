@@ -1,0 +1,17 @@
+### 2018 Aurulent Chardonnay
+###### <font color="gray">（2018 アウルレント　シャルドネ） </font>
+
+タイプ：　白  
+アルコール：　13.3％  
+品種：　シャルドネ100％  
+生産量：　450ケース（12本入り）  
+
+テースティング・ノート：  
+色はほのかに緑がかったゴールド。柑橘、パイナップル、バタースコッチなどがフレンチオーク樽による発酵と熟成から由来し、ミネラル感や複雑な香りを感じる。シルクのような質感。香りの複雑さと豊潤さ、柑橘やパイナップルを想起させる味わい。   
+  
+<hr class="spacer">
+<div class="btns">
+<a href="" class="btn-buy blanc single"><span>このワインを<br/>購入</span></a>
+<a href="" class="btn-buy pair"><span>赤&amp;白<br/>セットを購入</span></a>
+</div>
+<span class="text-end">※ BASEショップへ移動します。</span>
