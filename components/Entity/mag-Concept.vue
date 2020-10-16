@@ -25,18 +25,21 @@ export default {
      listData: [
         {
           image: image01,
+          imageclass: 'small',
           alt: '写真：ローダイのブドウ畑',
           item: '01',
           description: concept01
         },
         {
           image: image02,
+          imageclass: 'small',
           alt: '写真：ビルとジーン',
           item: '02',
           description: concept02
         },
         {
           image: image03,
+          imageclass: 'small',
           alt: '写真：ニュージーランドのブドウ畑',
           item: '03',
           description: concept03

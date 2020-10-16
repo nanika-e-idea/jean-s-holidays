@@ -15,7 +15,7 @@
         <section id="overviews"  v-observe-visibility="vov02" v-bind:class='{active:isVisible02}'>
             <h2 class="jh-h text-right">Introduction</h2>
             <span class="jh-sub text-right text-muted">はじめてのワイン　～ワイン愛～</span>
-            
+
             <section id="concept" class="story"  v-observe-visibility="vov03" v-bind:class='{active:isVisible03}'>
               <concept />
             </section>
@@ -27,29 +27,20 @@
         <hr class="spacer"/>
         <section id="recommends" v-observe-visibility="vov04" v-bind:class='{active:isVisible04}'>
             <h2 class="jh-h text-left">Recommendations</h2>
-            <span class="jh-sub text-left text-muted">コラボレーション・ワインズ</span>
+            <span class="jh-sub text-left text-muted">2020年ホリデーシーズン向けワインのご紹介</span>
             <div class="section-preface" v-html="recommends" />
-            <img :src="logowinery" alt="ロゴ：コレボレーション・ワインズ" />
             <hr class="spacer" />
             <section class="story" v-observe-visibility="vov05" v-bind:class='{active:isVisible05}'>
-              <hwinery /> 
-              <winery />
-            </section>
-            <hr class="spacer"/>
-            <section class="story" v-observe-visibility="vov06" v-bind:class='{active:isVisible06}'>
-              <hwinemaker />
-              <winemaker />
-            </section>
-            <hr class="spacer"/>
-            <section class="story" v-observe-visibility="vov08" v-bind:class='{active:isVisible08}'>
               <hwine />
-              <div class="section-preface">
-               <img class="fill" :src="wines" alt="写真：赤ワイン＆白ワイン" />
-              </div>
               <wine />
             </section>
             <hr class="spacer"/>
-            <section class="campaign" v-observe-visibility="vov09" v-bind:class='{active:isVisible09}'>
+            <section class="story" v-observe-visibility="vov06" v-bind:class='{active:isVisible06}'>
+              <hwinery />
+              <winery />
+            </section>
+            <hr class="spacer"/>
+            <section class="story" v-observe-visibility="vov08" v-bind:class='{active:isVisible08}'>
               <hcampaign />
               <campaign />
             </section>
@@ -145,12 +136,14 @@ export default {
       vov08(isVisible08, entry) {
         this.isVisible08 = isVisible08
       },
+      /*
       vov09(isVisible09, entry) {
         this.isVisible09 = isVisible09
       },
       vov10(isVisible10, entry) {
         this.isVisible10 = isVisible10
       }
+      */
     }
 };
 </script>
@@ -214,7 +207,7 @@ ul.tile {
     width: 100%;
     text-align: left;
     transition-delay: 0.9s;
-    transition-duration: 0.3s; 
+    transition-duration: 0.3s;
     img{
       margin-left: 20px;
       width: calc(100% - 40px);

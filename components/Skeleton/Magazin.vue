@@ -5,7 +5,7 @@
                 <h3 v-html="entryVal['item']" />
               </div>
               <div class="sentence">
-                <img v-if="entryVal['image']" :src="entryVal['image']" :alt="entryVal['alt']" />
+                <img v-if="entryVal['image']" :src="entryVal['image']" :alt="entryVal['alt']" :class="entryVal['imageclass']"/>
                 <span v-html="entryVal['description']" />
               </div>
               <div class="navspace"></div>
@@ -96,10 +96,26 @@ div.magazin{
       z-index: 2;
       img{
         margin: 0 1rem 1rem 1rem;
-        @include pc {width: calc(60% - 4rem); margin: 1rem 2rem}
-        @include lpc {width: 200px}
+        @include pc {
+          width: calc(60% - 4rem);
+          margin: 1rem 2rem;
+          &.wide{
+            width: calc(100% - 4rem);
+          }
+        }
+        @include lpc {
+          width: 200px;
+          &.wide{
+            width: calc(100% - 4rem);
+            margin: 1rem 2rem;
+          }
+        }
         @include tab {
-          width: calc(50% - 4rem); margin: 1rem 2rem
+          width: calc(50% - 4rem);
+          margin: 1rem 2rem;
+          &.wide{
+            width: calc(100% - 4rem);
+          }
         }
         @include sp {
           width: calc(100% - 4rem); margin: 1rem 2rem

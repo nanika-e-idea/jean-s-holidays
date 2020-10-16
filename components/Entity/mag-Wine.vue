@@ -24,24 +24,28 @@ export default {
      listData: [
         {
          image: '',
+         imageclass: '',
          alt: '',
          item: '01',
          description: wine01
         },
         {
          image: '',
+         imageclass: 'small',
          alt: '',
          item: '02',
          description: wine02
         },
         {
          image: '',
+         imageclass: 'small',
          alt: '',
          item: '03',
          description: wine03
         },
         {
          image: '',
+         imageclass: 'small',
          alt: '',
          item: '04',
          description: wine04

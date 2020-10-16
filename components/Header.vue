@@ -7,9 +7,8 @@
             <span class="navi"><a v-scroll-to="'#overviews'">Introduction</a>&nbsp;
             <a v-scroll-to="'#recommends'">Recommendations</a>&nbsp;
             <span class="small">
-                <a v-scroll-to="'#winery'">ワイナリー紹介</a>｜
-                <a v-scroll-to="'#winemaker'">醸造家紹介</a>｜
                 <a v-scroll-to="'#wine'">ワイン紹介</a>｜
+                <a v-scroll-to="'#winery'">ワイナリー紹介</a>｜
                 <a v-scroll-to="'#campaign'">キャンペーン内容</a>&nbsp;
             </span>
             </span>
@@ -25,9 +24,8 @@
             <li v-bind:class='{active:isActive01}'><a v-scroll-to="'#overviews'" v-on:click='isActive01=!isActive01'>Introduction</a></li>
             <li v-bind:class='{active:isActive01}'><a v-scroll-to="'#recommends'" v-on:click='isActive01=!isActive01'>Recommendations</a></li>
             <li v-bind:class='{active:isActive01}'><ul>
-                <li v-bind:class='{active:isActive01}'><a v-scroll-to="'#winery'" v-on:click='isActive01=!isActive01'>ワイナリー紹介</a></li>
-                <li v-bind:class='{active:isActive01}'><a v-scroll-to="'#winemaker'" v-on:click='isActive01=!isActive01'>醸造家紹介</a></li>
                 <li v-bind:class='{active:isActive01}'><a v-scroll-to="'#wine'" v-on:click='isActive01=!isActive01'>ワイン紹介</a></li>
+                <li v-bind:class='{active:isActive01}'><a v-scroll-to="'#winery'" v-on:click='isActive01=!isActive01'>ワイナリー紹介</a></li>
                 <li v-bind:class='{active:isActive01}'><a v-scroll-to="'#campaign'" v-on:click='isActive01=!isActive01'>キャンペーン内容</a></li>
             </ul></li>
         </ul>

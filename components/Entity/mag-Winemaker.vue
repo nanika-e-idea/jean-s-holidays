@@ -29,36 +29,42 @@ export default {
      listData: [
         {
           image: img01,
+          imageclass: '',
           alt: '写真：醸造家ジュリアン・ブローデン',
           item: '01',
           description: md01
         },
         {
           image: img02,
+          imageclass: '',
           alt: '写真：ワイン作り',
           item: '02',
           description: md02
         },
         {
           image: img03,
+          imageclass: '',
           alt: '写真：ブドウ畑で作業するジュリアン',
           item: '03',
           description: md03
         },
         {
           image: img04,
+          imageclass: 'small',
           alt: '写真：ナパバレーの風景',
           item: '04',
           description: md04
         },
         {
           image: img05,
+          imageclass: 'small',
           alt: '写真:アンジェラの作品',
           item: '05',
           description: md05
         },
         {
           image: img06,
+          imageclass: 'small',
           alt: 'Argent：アンジェラの作品',
           item: '06',
           description: md06

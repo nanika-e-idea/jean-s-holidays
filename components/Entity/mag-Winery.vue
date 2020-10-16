@@ -22,18 +22,21 @@ export default {
      listData: [
         {
           image: img01,
+          imageclass: 'wide',
           alt: '写真：醸造家ジュリアン・ブローデン',
           item: '01',
           description: md01
         },
         {
           image: img02,
+          imageclass: 'wide',
           alt: '写真：ワイングラス＆ワインボトル',
           item: '02',
           description: md02
         },
         {
           image: img03,
+          imageclass: 'small',
           alt: '写真：ホークスベイのブドウ畑',
           item: '03',
           description: md03
