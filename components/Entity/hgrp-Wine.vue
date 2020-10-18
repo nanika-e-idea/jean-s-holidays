@@ -14,8 +14,8 @@ export default {
             name: 'wine',
             heading: 'Wine',
             sub: 'ワイン紹介',
-            href: '#campaign'
+            href: '#winery'
         }
-    } 
+    }
 }
 </script>

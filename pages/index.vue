@@ -7,9 +7,12 @@
         </div>
         <hr class="spacer"/>
         <section id="headline" v-observe-visibility="vov01" v-bind:class='{active:isVisible01}'>
-          <h1 class="text-center"><span class="iblock">はじめまして</span> <span class="iblock">~Jean’s Holidaysの</span><span class="iblock">世界へようこそ~</span></h1>
+          <h1 class="text-center"><span class="iblock">~Jean’s Holidaysへ</span><span class="iblock">ようこそ~</span></h1>
           <hr class="spacer"/>
           <div class="container" v-html="introduction"/>
+
+          <hr class="spacer"/>
+          <storyteller />
         </section>
         <hr class="spacer"/>
         <section id="overviews"  v-observe-visibility="vov02" v-bind:class='{active:isVisible02}'>
@@ -19,9 +22,6 @@
             <section id="concept" class="story"  v-observe-visibility="vov03" v-bind:class='{active:isVisible03}'>
               <concept />
             </section>
-
-            <hr class="spacer"/>
-            <storyteller />
 
         </section>
         <hr class="spacer"/>
@@ -48,7 +48,7 @@
         <hr class="spacer"/>
         <hr>
         <hr class="spacer"/>
-        <div class="section-preface team" v-html="teammd" />
+        <div id="team" class="section-preface team" v-html="teammd" />
         <hr class="spacer"/>
     </div>
 </template>
@@ -58,15 +58,11 @@ import recommends from '~/assets/markdown/recommends.md';
 
 import LogoJh01 from '~/assets/image/jeansholidays_logo_01.png';
 import LogoJh02 from '~/assets/image/jeansholidays_logo_02.png';
-import LogoWinery from '~/assets/image/logo-collaboration_wines.svg';
-import wines from '~/assets/image/wines.jpg';
 
 import storyteller from '~/components/Entity/bio-Storyteller.vue';
 import concept from '~/components/Entity/mag-Concept.vue';
 import hwinery from '~/components/Entity/hgrp-Winery.vue';
 import winery from '~/components/Entity/mag-Winery.vue';
-import hwinemaker from '~/components/Entity/hgrp-Winemaker.vue';
-import winemaker from '~/components/Entity/mag-Winemaker.vue';
 import hwine from '~/components/Entity/hgrp-Wine.vue';
 import wine from '~/components/Entity/mag-Wine.vue';
 import hcampaign from '~/components/Entity/hgrp-Campaign.vue';
@@ -81,8 +77,6 @@ export default {
         concept,
         hwinery,
         winery,
-        hwinemaker,
-        winemaker,
         hwine,
         wine,
         hcampaign,
@@ -94,7 +88,6 @@ export default {
             jean: "ジーン長尾",
             logojh01: LogoJh01,
             logojh02: LogoJh02,
-            logowinery: LogoWinery,
             isVisible01: true,
             isVisible02: true,
             isVisible03: true,
@@ -107,7 +100,6 @@ export default {
             isVisible10: true,
             introduction,
             recommends,
-            wines,
             teammd,
         }
     },

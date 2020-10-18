@@ -1,6 +1,5 @@
 <div class="text-center">
-<h4>ご質問、<br/>お問い合わせは<br/>
-<a class="iblock" href="https://craftwinepark.com/contact/" target="blank" style="color: #222">こちら</a>まで</h4>
-<a class="iblock" href="https://craftwinepark.com/contact/" target="blank">
-<i class="fas fa-envelope fa-3x" style="color: #222"></i></a>
+<h5>お届け時期<h5>  
+<h4><span class="expand">2020</span>年<br/>
+<span class="expand">12</span>月<span class="expand">16</span>日より<br/>順次発送予定</h4>
 </div>

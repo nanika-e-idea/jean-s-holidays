@@ -5,8 +5,10 @@
 </template>
 
 <script>
-import imgAurulent from '~/assets/image/aurulent.jpg'
-import imgArgent from '~/assets/image/argent.jpg'
+import img01 from '~/assets/image/dummy_sq.png'
+import img02 from '~/assets/image/dummy_sq.png'
+import img03 from '~/assets/image/dummy_sq.png'
+import img04 from '~/assets/image/dummy_sq.png'
 
 import mag from '~/components/Skeleton/Magazin.vue'
 import wine01 from '~/assets/markdown/wine01.md'
@@ -23,30 +25,30 @@ export default {
    return {
      listData: [
         {
-         image: '',
-         imageclass: '',
-         alt: '',
+         image: img01,
+         imageclass: 'wide',
+         alt: '写真：アンツフィールド　スライディング・ヒル　ピノ・ノワール　2018',
          item: '01',
          description: wine01
         },
         {
-         image: '',
-         imageclass: 'small',
-         alt: '',
+         image: img02,
+         imageclass: 'wide',
+         alt: '写真：アンツフィールド　スライディング・ヒル　ソーヴィニヨン・ブラン　2019',
          item: '02',
          description: wine02
         },
         {
-         image: '',
-         imageclass: 'small',
-         alt: '',
+         image: img03,
+         imageclass: 'wide',
+         alt: '写真：アンツフィールド　スライディング・ヒル　赤白セット',
          item: '03',
          description: wine03
         },
         {
-         image: '',
-         imageclass: 'small',
-         alt: '',
+         image: img04,
+         imageclass: 'wide',
+         alt: '写真：マン・オー・ウォー　アイロンクラッド　ボルドーブレンド　2010',
          item: '04',
          description: wine04
         }

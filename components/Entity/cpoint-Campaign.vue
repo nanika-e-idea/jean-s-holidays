@@ -12,6 +12,7 @@ import md01 from '~/assets/markdown/campaign01.md'
 import md02 from '~/assets/markdown/campaign02.md'
 import md03 from '~/assets/markdown/campaign03.md'
 import md04 from '~/assets/markdown/campaign04.md'
+import md05 from '~/assets/markdown/campaign05.md'
 
 import mdat from '~/assets/markdown/attention.md'
 
@@ -39,8 +40,13 @@ export default {
           href: ''
         },
         {
-          class: 'circle btncv',
+          class: 'circle',
           point: md04,
+          href: ''
+        },
+        {
+          class: 'circle btncv',
+          point: md05,
           href: 'https://craftwine.base.shop/categories/1995418'
         },
      ],

@@ -24,7 +24,8 @@ export default {
       { hid: 'og:image', property: 'og:image', content: 'https://example.com/img/ogp/common.jpg' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'}
     ],
     script: [
       {

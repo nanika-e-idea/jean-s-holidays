@@ -14,8 +14,8 @@ export default {
             name: 'winery',
             heading: 'Winery',
             sub: 'ワイナリー紹介',
-            href: '#winemaker'
+            href: '#campaign'
         }
-    } 
+    }
 }
 </script>

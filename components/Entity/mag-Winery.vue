@@ -4,13 +4,11 @@
 </template>
 
 <script>
-import img01 from '~/assets/image/wineryTop.jpg'
-import img02 from '~/assets/image/wine-argent.jpg'
-import img03 from '~/assets/image/terrainHB.jpg'
+import img01 from '~/assets/image/dummy.png'
+import img02 from '~/assets/image/dummy.png'
 import mag from '~/components/Skeleton/Magazin.vue'
 import md01 from '~/assets/markdown/winery01.md'
 import md02 from '~/assets/markdown/winery02.md'
-import md03 from '~/assets/markdown/winery03.md'
 
 export default {
  name: 'Winery',
@@ -23,23 +21,16 @@ export default {
         {
           image: img01,
           imageclass: 'wide',
-          alt: '写真：醸造家ジュリアン・ブローデン',
+          alt: '写真：アンツフィールド・エステート',
           item: '01',
           description: md01
         },
         {
           image: img02,
           imageclass: 'wide',
-          alt: '写真：ワイングラス＆ワインボトル',
+          alt: '写真：マン・オー・ウォー・ヴィンヤーズ',
           item: '02',
           description: md02
-        },
-        {
-          image: img03,
-          imageclass: 'small',
-          alt: '写真：ホークスベイのブドウ畑',
-          item: '03',
-          description: md03
         },
      ],
      reverseOrder: true
