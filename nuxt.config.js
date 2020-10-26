@@ -1,8 +1,8 @@
 export default {
   mode: 'universal',
-  router: {
-    base: '/static/jeans-holidays/'
-  },
+  //router: {
+  //  base: '/static/jeans-holidays/'
+  //},
   /*
   ** Headers of the page
   */
