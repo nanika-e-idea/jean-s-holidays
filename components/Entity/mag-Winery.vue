@@ -4,8 +4,8 @@
 </template>
 
 <script>
-import img01 from '~/assets/image/dummy.png'
-import img02 from '~/assets/image/dummy.png'
+import img01 from '~/assets/image/winery-af01.jpg'
+import img02 from '~/assets/image/winery-mow01.png'
 import mag from '~/components/Skeleton/Magazin.vue'
 import md01 from '~/assets/markdown/winery01.md'
 import md02 from '~/assets/markdown/winery02.md'
