@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import img01 from '~/assets/image/dummy_sq.png'
-import img02 from '~/assets/image/dummy_sq.png'
-import img03 from '~/assets/image/dummy_sq.png'
-import img04 from '~/assets/image/dummy_sq.png'
+import img01 from '~/assets/image/wine01.png'
+import img02 from '~/assets/image/wine02.png'
+import img03 from '~/assets/image/wine03.png'
+import img04 from '~/assets/image/wine04.png'
 
 import mag from '~/components/Skeleton/Magazin.vue'
 import wine01 from '~/assets/markdown/wine01.md'
