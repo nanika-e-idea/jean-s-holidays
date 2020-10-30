@@ -6,12 +6,12 @@
         <hr/>
         <p>株式会社リブ・コマース</p>
         <p>大阪市中央区本町4丁目2番12号 <br/>
-          東芝大阪ビル８F billage OSAKA<br/></p>
+          野村不動産御堂筋本町ビル<!-- （旧）東芝大阪ビル -->８F billage OSAKA<br/></p>
         <p>>&nbsp;<a href="https://craftwinepark.com/">craftwinepark.com</a></p>
       </div>
       <hr class="spacer">
       <div class="sole">
-        <p>@2019 Jean's Holidays/ジーンズ・ホリデーズ</p>
+        <p>@2020 Jean's Holidays/ジーンズ・ホリデーズ</p>
       </div>
       </div>
     </footer>
