@@ -16,7 +16,7 @@ $headingfont: heisei-kaku-gothic-std, sans-serif;
 //$headingfont: sans-serif;
 
 $fbase-pc: 18px;
-$fbase-tab: 18px; 
+$fbase-tab: 18px;
 $fbase-sp: 16px;
 
 $fjump-1: 2.5rem;
@@ -75,6 +75,28 @@ $sp: 430px;  // スマホ
     @content;
   }
 }
+.embed-wrap {
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0px;
+  position: relative;
+}
+.embed-pf-wrap {
+  width: 60%;
+  padding-bottom: 100%;
+  height: 0px;
+  position: relative;
+  margin-left: 20%;
+}
+
+.embed-wrap iframe,
+.embed-pf-wrap iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 $shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
 
@@ -82,8 +104,8 @@ $shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
 $palette-acsent: rgb(140, 30, 50);
 //$palette-point: #D4C85D;
 $palette-point: rgb(180, 135, 75);
-$palette-light: #aaaaaa; 
+$palette-light: #aaaaaa;
 $palette-mid: #777777;
-//$palette-dark: #283336; 
-$palette-dark: rgb(30, 80, 80); 
+//$palette-dark: #283336;
+$palette-dark: rgb(30, 80, 80);
 $blacky: #1a1a1c;
