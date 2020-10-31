@@ -19,7 +19,8 @@
 
 ###### MEME
 <div style="text-align:center"><img src="images/meme.jpg" width=120 alt="写真：MEME" /></div>
-FM COCOLO「AFTERNOON DELIGHT」（月-木）14:00〜17:00  
+FM COCOLO「AFTERNOON DELIGHT」  
+（月-木）14:00〜17:00  
 
 
 <hr>
@@ -34,4 +35,5 @@ FM COCOLO「AFTERNOON DELIGHT」（月-木）14:00〜17:00
 
 ###### 大抜卓人
 <div style="text-align:center"><img src="images/oonuki.gif" width=120 alt="写真：大抜卓人" /></div>
-FM802「on-air with TACTY IN THE MORNING」（月-木）6:00〜11:00  
+FM802「on-air with TACTY IN THE MORNING」  
+（月-木）6:00〜11:00  

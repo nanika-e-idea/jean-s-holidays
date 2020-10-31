@@ -19,5 +19,8 @@
 
 ###### 山添　まり
 <div style="text-align:center"><img src="images/yamazoe.jpg" width=120 alt="写真：山添まり" /></div>
-FM COCOLO 「PRIME STYLE FRIDAY」（金）10:00〜14:00  
-FM COCOLO 「PRIME STYLE SATURDAY」（土）10:00〜14:00  
+FM COCOLO 「PRIME STYLE FRIDAY」  
+（金）10:00〜14:00  
+  
+FM COCOLO 「PRIME STYLE SATURDAY」  
+（土）10:00〜14:00  
