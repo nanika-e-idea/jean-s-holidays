@@ -1,14 +1,16 @@
 export default {
   mode: 'universal',
-  //router: {
-  //  base: '/static/jeans-holidays/'
-  //},
+  router: {
+    base: '/static/jeans-holidays/' 
+  //  base: '/static/preview/' // ## onsite test
+  // ## & set head:{base:{href:"{{router.base}}"}}
+  },
   /*
   ** Headers of the page
   */
   head: {
     base: {
-      href: 'router.base'
+      href: "{{ router.base }}"
      },
     //title: process.env.npm_package_name || '',
     titleTemplate: '%s - Jean\'s Holidays | 休日のひと時を彩る素敵なワインを皆様に。 | ジーンズ・ホリデーズ',
