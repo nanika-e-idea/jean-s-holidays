@@ -14,10 +14,17 @@
 <div class="embed-wrap">
 <iframe src="https://www.youtube.com/embed/LcMNWdI2LeA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div>
+</div>
+<br>
 
+  
+
+<div style="text-align:center">
 
 ###### 岩須直紀
+
+</div>
+
 ニュージーランドワインが好きすぎるソムリエ。一般社団法人日本ソムリエ協会 認定ソムリエ。  
 名古屋市栄でダイニングバー「ボクモ」を経営。  
 

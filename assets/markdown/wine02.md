@@ -14,11 +14,17 @@
 <div class="embed-pf-wrap">
 <iframe src="https://www.youtube.com/embed/ETap0JQprFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div>
+</div>
+<br>
 
+  
+
+<div style="text-align:center">
 
 ###### MEME
-<div style="text-align:center"><img src="images/meme.jpg" width=120 alt="写真：MEME" /></div>
+
+<img src="images/meme.jpg" width=120 alt="写真：MEME" /></div>
+
 FM COCOLO「AFTERNOON DELIGHT」  
 （月-木）14:00〜17:00  
 
@@ -30,10 +36,16 @@ FM COCOLO「AFTERNOON DELIGHT」
 <div class="embed-wrap">
 <iframe src="https://www.youtube.com/embed/f7HIGw1H1OU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div>
+</div>
+<br>
 
+  
+
+<div style="text-align:center">
 
 ###### 大抜卓人
-<div style="text-align:center"><img src="images/oonuki.gif" width=120 alt="写真：大抜卓人" /></div>
+
+<img src="images/oonuki.gif" width=120 alt="写真：大抜卓人" /></div>
+
 FM802「on-air with TACTY IN THE MORNING」  
 （月-木）6:00〜11:00  

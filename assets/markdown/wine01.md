@@ -15,10 +15,16 @@
 <iframe src="https://www.youtube.com/embed/K8xg9KpRStQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div>
+<br>
 
+  
+
+<div style="text-align:center">
 
 ###### 山添　まり
-<div style="text-align:center"><img src="images/yamazoe.jpg" width=120 alt="写真：山添まり" /></div>
+
+<img src="images/yamazoe.jpg" width=120 alt="写真：山添まり" /></div>
+
 FM COCOLO 「PRIME STYLE FRIDAY」  
 （金）10:00〜14:00  
   
