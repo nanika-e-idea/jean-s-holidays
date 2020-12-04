@@ -1,7 +1,7 @@
 export default {
   mode: 'universal',
   router: {
-    base: '/static/jeans-holidays/' 
+    base: '/static/jeans-holidays/'
   //  base: '/static/preview/' // ## onsite test
   // ## & set head:{base:{href:"{{router.base}}"}}
   },
@@ -23,7 +23,7 @@ export default {
       { hid: 'og:url', property: 'og:url', content: 'http://craftwinepark.com/static/jeans-holidays/' },
       { hid: 'og:title', property: 'og:title', content: 'Jean\'s Holidays | 休日のひと時を彩る素敵なワインを皆様に。 | ジーンズ・ホリデーズ' },
       { hid: 'og:description', property: 'og:description', content: '休日のひとときを彩る素敵なワインを皆様に。　ジーン長尾（元FM802のパーソナリティー）が厳選したニュージーランドワインを、あなたの2019年のホリデーシーズンにあわせて提案する企画が、FM802、FM COCOLOの協力のもと実現しました！' },
-      { hid: 'og:image', property: 'og:image', content: 'https://example.com/img/ogp/common.jpg' },
+      { hid: 'og:image', property: 'og:image', content: 'http://craftwinepark.com/static/jeans-holidays/images/logo_ogp.jpg' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
