@@ -17,12 +17,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '休日のひとときを彩る素敵なワインを皆様に。　ジーン長尾（元FM802のパーソナリティー）が厳選したニュージーランドワインを、あなたの2019年のホリデーシーズンにあわせて提案する企画が、FM802、FM COCOLOの協力のもと実現しました！' },
+      { hid: 'description', name: 'description', content: '休日のひとときを彩る素敵なワインを皆様に。　ジーン長尾（元FM802のパーソナリティー）が厳選したニュージーランドワインを、ホリデーシーズンにあわせて提案する企画が、FM802、FM COCOLOの協力のもと実現しました！' },
       { hid: 'og:site_name', property: 'og:site_name', content: 'Jean\'s Holidays | 休日のひと時を彩る素敵なワインを皆様に。 | ジーンズ・ホリデーズ' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'http://craftwinepark.com/static/jeans-holidays/' },
       { hid: 'og:title', property: 'og:title', content: 'Jean\'s Holidays | 休日のひと時を彩る素敵なワインを皆様に。 | ジーンズ・ホリデーズ' },
-      { hid: 'og:description', property: 'og:description', content: '休日のひとときを彩る素敵なワインを皆様に。　ジーン長尾（元FM802のパーソナリティー）が厳選したニュージーランドワインを、あなたの2019年のホリデーシーズンにあわせて提案する企画が、FM802、FM COCOLOの協力のもと実現しました！' },
+      { hid: 'og:description', property: 'og:description', content: '休日のひとときを彩る素敵なワインを皆様に。　ジーン長尾（元FM802のパーソナリティー）が厳選したニュージーランドワインを、ホリデーシーズンにあわせて提案する企画が、FM802、FM COCOLOの協力のもと実現しました！' },
       { hid: 'og:image', property: 'og:image', content: 'http://craftwinepark.com/static/jeans-holidays/images/logo_ogp.jpg' },
     ],
     link: [
