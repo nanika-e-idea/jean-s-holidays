@@ -1,5 +1,6 @@
 <template>
     <div class="main">
+      <thanks />
         <div class="firstview">
           <div class="fv-head"><img :src="logojh02" alt="ロゴ(小)：ジーンズ・ホリデーズ" /></div>
           <div class="fv-msg"><p>休日の<span class="iblock">ひとときを</span><span class="iblock">彩る</span><span class="iblock">素敵な</span><span class="iblock">ワインを</span><span class="iblock">皆様に</span></p></div>
@@ -53,6 +54,8 @@
     </div>
 </template>
 <script>
+import thanks from '~/components/Thanks.vue';
+
 import introduction from '~/assets/markdown/introduction.md';
 import recommends from '~/assets/markdown/recommends.md';
 
@@ -73,6 +76,7 @@ import teammd from '~/assets/markdown/team.md';
 export default {
     name: 'hoge',
     components: {
+        thanks,
         storyteller,
         concept,
         hwinery,
